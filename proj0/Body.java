@@ -93,4 +93,8 @@ public class Body {
         this.xxVel = vNewX;
         this.yyVel = vNewY;
     }
+
+    public void draw(){
+        StdDraw.picture(this.xxPos, this.yyPos, "images/"+this.imgFileName);
+    }
 }
